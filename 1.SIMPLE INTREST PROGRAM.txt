@@ -1,0 +1,23 @@
+  1.  SIMPLE INTREST PROGRAM
+
+
+#include <stdio.h>
+void main()
+{
+    float p,r,t,si;
+    printf("the value of p: ");
+    scanf("%f",&p);
+     printf("the value of r: ");
+    scanf("%f",&r);
+     printf("the value of t: ");
+    scanf("%f",&t);
+    si=(p*r*t)/100;
+    printf("the value of SI is %f",si);
+
+}
+
+OUTPUT:
+ the value of p: 20
+the value of r: 40
+the value of t: 50
+the value of SI is 400.000000 
